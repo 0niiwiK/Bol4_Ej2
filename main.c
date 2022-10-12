@@ -14,7 +14,7 @@ int main() {
     if (contador==0)
         printf("El promedio es 0 (no se cargo ningun valor)");
     else {
-        printf("El promedio de los %d valores es: %.3f",contador,acumulado/contador);
+        printf("El promedio de los %d valores es: %f",contador,acumulado/contador);
     }
     return 0;
 }
